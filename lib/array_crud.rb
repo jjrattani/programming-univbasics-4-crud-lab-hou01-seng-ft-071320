@@ -43,6 +43,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   public = ["chilly","cheese","bowl","lemon"]
-  p = "lemon"
-  array [0] = "pepper"
+  array [0] = element
 end
