@@ -28,13 +28,12 @@ end
 
 def retrieve_element_from_index(array, index_number)
   public = ["chilly","cheese","bowl","lemon"]
-  public.index_number [1]
-  p public
+  array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
   public = ["chilly","cheese","bowl","lemon"]
-  public [0]
+  array [0]
 end
 
 def retrieve_last_element_from_array(array)
