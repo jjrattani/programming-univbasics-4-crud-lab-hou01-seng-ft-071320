@@ -9,19 +9,19 @@ end
 
 def add_element_to_start_of_array (array, element)
   public = ["chilly","cheese","bowl","lemon"]
-  public.push("sauce")
+  array.push("sauce")
   p public
 end
 
 def add_element_to_start_of_array(array, element)
   public = ["chilly","cheese","bowl","lemon"]
-  public.unshift("sauce")
+  array.unshift("sauce")
   p public
 end
 
 def remove_element_from_end_of_array(array)
   public = ["chilly","cheese","bowl","lemon"]
-  public.pop
+  array.pop
   p public
 end
 
