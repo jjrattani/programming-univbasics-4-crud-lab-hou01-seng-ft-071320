@@ -38,7 +38,7 @@ end
 
 def retrieve_last_element_from_array(array)
   public = ["chilly","cheese","bowl","lemon"]
-  public [-1]
+  array [-1]
 end
 
 def update_element_from_index(array, index_number, element)
