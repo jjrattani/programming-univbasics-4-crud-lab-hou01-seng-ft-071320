@@ -13,8 +13,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   public = ["chilly", "cheese", "bowl", "lemon"]
-  public.unshift("sauce")
-  p public
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
