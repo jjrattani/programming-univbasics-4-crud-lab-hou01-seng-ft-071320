@@ -8,14 +8,14 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  add_element_to_end_of_array = ["chilly","cheese","bowl","lemon"]
-  add_element_to_end_of_array.push ("sauce")
-  p add_element_to_end_of_array
+  public= ["chilly","cheese","bowl","lemon"]
+  public.push("sauce")
+  p public
 end
 
 def add_element_to_start_of_array(array, element)
   public = ["chilly","cheese","bowl","lemon"]
-  public.unshift ("sauce")
+  public.unshift("sauce")
   p public
 end
 
