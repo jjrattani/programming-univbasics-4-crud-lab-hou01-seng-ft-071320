@@ -4,7 +4,6 @@ end
 
 def create_an_array
   public = ["chilly","cheese","bowl","lemon"]
-  
 end
 
 def add_element_to_end_of_array (array, element)
