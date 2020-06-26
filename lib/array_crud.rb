@@ -21,7 +21,6 @@ end
 def remove_element_from_end_of_array(array)
   public = ["chilly","cheese","bowl","lemon"]
   array.pop
-  p public
 end
 
 def remove_element_from_start_of_array(array)
