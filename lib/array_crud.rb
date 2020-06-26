@@ -7,7 +7,7 @@ def create_an_array
   
 end
 
-def public (array, element)
+def add_element_to_start_of_array (array, element)
   public= ["chilly","cheese","bowl","lemon"]
   public.push("sauce")
   p public
