@@ -7,9 +7,9 @@ def create_an_array
   
 end
 
-def add_element_to_start_of_array (array, element)
+def add_element_to_end_of_array (array, element)
   ["chilly","cheese","bowl","lemon"]
-  array.unshift(element)
+  array.push("sauce")
 end
 
 def add_element_to_start_of_array(array, element)
