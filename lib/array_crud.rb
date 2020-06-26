@@ -8,12 +8,12 @@ def create_an_array
 end
 
 def add_element_to_start_of_array (array, element)
-  public = ["chilly","cheese","bowl","lemon"]
+  ["chilly","cheese","bowl","lemon"]
   array.push("sauce")
 end
 
 def add_element_to_start_of_array(array, element)
-  public = ["chilly","cheese","bowl","lemon"]
+  ["chilly","cheese","bowl","lemon"]
   array.unshift("sauce")
 end
 
